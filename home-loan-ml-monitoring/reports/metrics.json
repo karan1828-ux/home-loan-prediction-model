@@ -1,0 +1,42 @@
+{
+  "total_predictions": 2,
+  "successful_predictions": 2,
+  "failed_predictions": 0,
+  "approved_predictions": 2,
+  "rejected_predictions": 0,
+  "approval_rate": 1.0,
+  "rejection_rate": 0.0,
+  "average_latency_ms": 0.0,
+  "uptime_seconds": 30.7,
+  "drift_events_count": 3,
+  "last_drift_score": 0.0,
+  "last_drift_status": "NO DRIFT DETECTED",
+  "last_drift_timestamp": "2026-11-16T16:58:44.777280+00:00",
+  "last_drifted_features": [],
+  "retraining_attempts": 1,
+  "successful_promotions": 0,
+  "current_model_version": "champion-v1",
+  "last_retraining_time": "2026-11-16T16:59:15.427243+00:00",
+  "champion_performance": 0.8235,
+  "candidate_performance": 0.8235,
+  "retraining_history": [
+    {
+      "timestamp": "2026-11-16T16:59:15.427243+00:00",
+      "retraining_run_id": 1,
+      "status": "rejected_no_improvement",
+      "success": true,
+      "promoted": false,
+      "metric_name": "f1_score",
+      "champion_score": 0.8235,
+      "candidate_score": 0.8235,
+      "active_model_version": "champion-v1",
+      "details": {
+        "status": "rejected_no_improvement",
+        "message": "Candidate model version '2' (f1_score: 0.8235) did not outperform champion (f1_score: 0.8235). Champion retained.",
+        "evaluation_source": "validation_split_fallback",
+        "drift_detected": false,
+        "drift_percentage": 0.0
+      }
+    }
+  ]
+}

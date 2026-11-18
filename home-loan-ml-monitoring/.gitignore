@@ -1,0 +1,95 @@
+# Byte-compiled / optimized / Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables & secrets (keep .env.example tracked)
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Pytest & testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# MLflow tracking data and artifacts
+mlruns/
+mlartifacts/
+*.db
+mlflow.db
+
+# Generated model files & serialized checkpoints
+models/*.pkl
+models/*.joblib
+*.pkl
+*.joblib
+
+# Temporary files & logs
+tmp/
+temp/
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ensure project datasets, source code, configs, and documentation remain tracked
+!data/
+!data/**
+!requirements.txt
+!README.md
+!src/**
+!tests/**
+!api/**
+!monitoring/**
+
+__pycache__/
+*.py[cod]
+
+# Local datasets
+/data/raw/*.csv
